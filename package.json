@@ -1,0 +1,35 @@
+{
+  "name": "strapi-provider-upload-aws-tt",
+  "version": "1.0.0",
+  "description": "based on strapi-provider-upload-aws-s3, just fixed for tt needs",
+  "directories": {
+    "lib": "./lib"
+  },
+  "main": "./lib",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "strapi": {
+    "isProvider": true
+  },
+  "engines": {
+    "node": ">= 10.0.0",
+    "npm": ">= 6.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tappytaps/strapi-provider-upload-aws-tt.git"
+  },
+  "keywords": [
+    "strapi",
+    "aws",
+    "s3",
+    "upload",
+    "endpoint"
+  ],
+  "author": "sarsonj",
+  "license": "MIT",
+  "dependencies": {
+    "aws-sdk": "^2.395.0"
+  }
+}
